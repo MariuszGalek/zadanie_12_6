@@ -1,1 +1,1 @@
-Zadanie_12_6
+Zadanie_12_6 - Country search engine (jQuery, API)
