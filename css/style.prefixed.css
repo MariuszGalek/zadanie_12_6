@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+body {
+  margin: 0;
+  background: url("../images/background.jpeg");
+  background-size: auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.container h1 {
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container button {
+  margin: 30px auto;
+  display: block;
+  width: 150px;
+  height: 30px;
+  background-color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container button:active {
+  background: black;
+  color: #fff;
+}
+
+.container input {
+  width: 200px;
+  height: 30px;
+  margin: 50px auto 20px auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.container h2 {
+  color: #fff;
+  margin: 40px 0 0 90px;
+  background-color: rgba(255, 255, 102, 0.5);
+  width: 570px;
+  padding: 5px 15px;
+}
+
+.container ul {
+  list-style-type: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.container ul .country {
+  margin-top: 10px;
+  font-size: 26px;
+  background-color: rgba(255, 255, 102, 0.5);
+  padding: 5px 0;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container ul .bottom-line {
+  height: 22px;
+  background-color: rgba(255, 255, 102, 0.5);
+}
+
+.container ul li {
+  max-width: 600px;
+  background-color: rgba(255, 255, 0, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.container ul li span {
+  min-width: 200px;
+  background: rgba(255, 0, 0, 0.3);
+  font-size: 22px;
+  display: inline-block;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
